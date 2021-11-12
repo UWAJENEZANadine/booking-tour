@@ -1,0 +1,399 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+.topnav{
+    width: 100%;
+    background: rgb(10, 133, 47);
+    padding: 15px 30px 15px 50px;
+    display: flex;
+    box-shadow: 0px 5px rgb(64, 230, 127);
+    
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+   
+}
+.navbar-right{
+  height: 70px;
+  width: 90%; 
+  overflow: hidden; 
+  
+
+
+}
+.topnav a{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    float: right;
+    text-decoration: none;
+    height: 100%;
+}
+.topnav a:hover{
+    background: rgb(82, 0, 7);
+
+}
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+.home-containner{
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.411);
+   
+}
+body{
+    background-image: url(./images/tou.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-containner h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.quote-div{
+    height: 50vh;
+    width: 35%;
+    background: rgba(248, 247, 250, 0.74);
+    float: right;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 5px rgba(46, 243, 121, 0.452);
+    align-items: center;
+}
+.quote-div p{
+    margin-top: 15px;
+}
+.quote-div button{
+    padding: 15px;
+    margin-top: 70px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 45px;
+    color: rgb(56, 3, 3);
+    
+
+}
+.tour-section-container{
+    height: 20vh;
+    width: 100%;
+    background: white;
+    padding: 10px 250px 10px 250px;
+}
+.bottom{
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding: 5px;
+
+}
+.bottom h1{
+    
+    font-weight: 700;
+    color: rgb(5, 5, 65);
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.left{
+  
+    width: 50%;
+    height: 90%;
+    padding: 50px 0px 10px 90px;
+    align-content: center;
+  
+}
+.left h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.left button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 90%;
+    color: brown;
+}
+.right{
+   width: 90%;
+    height: 90%;
+  
+   
+    
+}
+
+select{
+    display: block;
+    width: 60%;
+    height: 10%;
+    box-shadow: 3px 3px 3px gray;
+}
+label{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.signup-form{
+    width: 40%;
+    height: 62vh;
+    background: white;
+    margin: 85px 0px 8px 25%;
+    padding: 30px;
+}
+.home-containner h2{
+    margin-bottom: 35px;
+    font-size: 35px;
+    font-family:sans-serif;
+}
+.signup-form label{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.signup-form input{
+    padding-bottom: 5px;
+    float: right;
+    width: 300px;
+    
+}
+.signup-form input[type=button]{
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+
+}
+.signup-form input[type=password]{
+ margin-top: 5px;
+}
+.header{
+    background: yellowgreen;
+    columns: green;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    height: 20vh;
+}
+.about-container{
+    background: white;
+    height: 80vh;
+    display: flex;
+    padding-top: 30px;
+  
+   
+}
+.about-left{
+
+    width: 60%;
+    height: 80vh;
+    padding: 15px;
+
+}
+.about-right{
+
+    width: 60%;
+    height: 80vh;
+    padding-left: 50px;
+}
+
+.about-left p{
+    padding-top: 30px;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 55px;
+    text-align: center;
+    color: rgb(83, 15, 3);
+    font-family: sans-serif;
+   
+   
+    
+    
+}
+.about-left h1{
+  text-align: center;
+    
+    
+
+}
+.last-container{
+    display: flex;
+    background: white;
+    align-items: center;
+    height: 70vh;
+    color: rgb(83, 15, 3);
+    
+    
+ 
+
+}
+.last-container img{
+    border-radius: 50%;
+    margin-left: 80px;
+}
+.last-container .first img{
+    margin-left: 100px;
+}
+
+.first{
+width: 25%;
+padding: 10px;
+margin-left: 80px;
+height: 45vh;
+background: whitesmoke;
+margin-top: 2px;
+border-radius: 50px 50px 5px 5px;
+
+
+
+}
+.second{
+    width: 25%;
+    padding: 10px;
+    margin-left: 70px;
+    height: 45vh;
+    background: whitesmoke;
+    margin-top: 2px;
+    border-radius: 50px 50px 5px 5px;
+
+}
+.third{
+    width: 25%;
+    padding: 10px;
+    margin-left: 90px;
+    height: 45vh;
+    background: whitesmoke;
+    margin-top: 2px;
+    border-radius: 50px 50px 5px 5px;
+}
+.last-container p,h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background: whitesmoke;
+    margin-top: 5px;
+}
+.login-form{
+    background: rgb(2, 56, 2);
+    width: 40%;
+    height: 75%;
+    margin: 20px 0px 0px 30%;
+    padding: 30px 20px 2px 90px;
+
+}
+.login-form input[type=email]{
+    padding: 5px;
+    float: right;
+    width: 85%;
+    box-shadow: 3px 3px 3px rgb(66, 94, 70);
+    background: rgb(144, 230, 144);
+    height: 10%;
+
+}
+.login-form input[type=password]{
+    padding: 5px;
+    float: right;
+    width: 85%;
+    box-shadow: 3px 3px 3px rgb(66, 94, 70);
+    background: rgb(144, 230, 144);
+    height: 10%
+}
+.login-form img{
+    margin-bottom: 5px;
+}
+input[type=checkbox]{
+    height: 20px;
+    margin-top: 20px;
+}
+.login-form label, h2{
+    color: white;
+    font-size: 20px;
+}
+.login-form h2{
+    font-size: 10px;
+}
+.login-form  input[type=button]{
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.login-form  input[type=button]:hover{
+    background: rgb(56, 8, 2);
+    color: white;
+    border-radius: rgb(56, 8, 2);;
+}
+.home-containner h2{
+    color: white;
+    margin-top: 1px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form p{
+    font-size: 20px;
+}
+.contact-form{
+    display: flex;
+    background: rgb(71, 69, 69);
+    width: 40%;
+    height: 60vh;
+    margin-left: 290px;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+.contact-left input{
+    height: 20px;
+    padding-bottom: 3px;
+}
+
+.row{
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+.row img{
+    width: 40px;
+    height: 30px; 
+    margin-bottom: 25px;
+
+}
+.col2{
+    margin-left: 20px;
+   font-size: 20px;
+   color: white;
+
+}
+.col2 p{
+    margin-bottom: 9px;
+}
+.lastly img{
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+textarea{
+    height: 30%;
+}
+.lastly  h1{
+    color: white;
+}
